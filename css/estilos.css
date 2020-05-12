@@ -1,0 +1,45 @@
+body {
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcIBwcNBwgGBw0HBg0HBwcHBhIICQgKIBoWIiARHxMYHSggGBoxGxYUITEhJSkrLjouIB8zODMsNygtLisBCgoKDQ0NDg0NDisZFRktNy0rKysrMistKysrKysrKysrKysrLSsrLTcrKysrLSsrKysrKysrKys3KysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBgf/xAAYEAEBAQEBAAAAAAAAAAAAAAABABEhAv/EABoBAQEBAQEBAQAAAAAAAAAAAAECAAQFBgP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A+ppFJsUvzeiDRmxYVASLdGKQQSM2iWUDFJsWFQGiTSLBBil0YpZQNJNGFAkUm0YUDFJpGxBozSLCoCRujFIUDFJ0bGAxSaRYUCUZpFIUDRmxSxBIzaJChta1i1rWsz3CUZpFut4QMW6JFggxZtGyoCRZsUhQJRnFLEGiTYsKgRZpSFAkWbRILm0ZsWyoDRJpFhQMWaUbKBizaJBgJFnFIULFJsWygozSMEEizaMKBIs2jZTmlJpFgpa1rF7tok2LdjwAYs0pCgSLNIpChYs2KWIJRmxSFAxZtGFAxSbRsXNpNIsKBKM2KQoGiSaWMBik0owoGLNillAlGcUhUBKM2LBBik2iQoGLNItlQGjNIsEGiTYtlA0klMhT3qRZtEux8+DFJtGxc6JNIsKgJRmkWFAkUm0bKBIs0iwYDRmkYUDFujFLKBoyaMEEizYpChik2LZQNGbFgwEpKiQoEizaNlQGLNIwRSLNikKBokmiWVAYs0owoKZJpYvepFnFLsfPg0SbFhQMUujFLKBizSjBgMWaRYUDRJsWygaJNIwQizSjCgSLNollAxScWFQGjNIsEGLNo2UCRm0SFQEizYsEGiTSLZQUmkWFAkW6MUggxSdEspzaZNjCnvUozil2PnwaJNi2UEWaUgwEizaJCgYpNillQGjNIsEGKTSjCgYpNKNlAxZsWCCUZsUhQRSbSyoDFmkYIpFmxSygSjNiwoGiTSLCgYpNKNiDFm0YU5pSbFIUDSbGxe9SjJol2Pn4DFm0YUDFJpFsoWLNIsGAlJsUhQMUnRsoGLNowqAxSaRYINGbFLKBKMmjCoCRZpFgixSaUbKjm0mkWFAlGcUggxSbRsoIpNKMKBizYpCgaJNi2MBKTSOQp71Is6Jdj58EizYtlQGiTSMEGKXRItlA0ZNGFAkWaRSCLFmxSFA0ZsWyoCRZtEggkZsUsoWKTYsKgNGaRhQJFJtEsQYs2jCoDFJsWFBRJpGxBozSLCoCRm0SFA0yTSxe8pW12PABKM2KQQaJNI2UEUmlGFQEizaJBBik4tlA0ZpFhQJFmlEggxZtEsoEjNikKBKM4pYgxSbRhQRZpRhQJFnFIUDRJsWxgNEmkWFBFmlGygSLNokGOaUmxyFPdWta7HgtRrazAxSaUYIRSaUbKBizYpCoCUmxSCDFJtGygYs0jCoDRmkUhQNGbFLEEi3RikKgMWbFhQsUmxSxBpNIsKBI3RikKBik2liDFmkWFCkZsUhQJSccsp7e1rXW8JrWtZmilrWYWiWtChaNLQpEi2tYokW1oVEYpa1lDRLWgwUi2tCkSLa0KFolrWUNGloKJFrayhSLa0KiJFtaCkPW2tZSMe2tBRpa1lR//9k=");
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+  } 
+  
+  .menu {
+    background-color: white; 
+  }
+  
+  .menu ul {
+   display: flex;  
+   justify-content: space-around; 
+    
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+    
+   a {
+    color: teal;
+    text-decoration: none; 
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+   }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+   }
+  
+  .site-subtitle {
+    font-style: italic;
+   }
+  
+  
+  
+  
+    

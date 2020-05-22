@@ -1,22 +1,113 @@
- <!DOCTYPE html>
- <html lang="pt-br">
- <head>
-     <meta charset="UTF-8">
-      <title>Amanda Vasconcelost</title>
-      <link rel="stylesheet" href="css/estilos.css">
- </head>
- <body>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda Vasconcelost</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?0family=Baloo+2:wght@800&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/abab14bf0e.js" crossorigin="anonymous"></script>
+</head>
+
+  <body>
     <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <h1 class="site-title">Amanda Vasconcelos</h1>
-        <h2 class="site-subtitle">Aspirante a Frontend Developer</h2>
-      </header>  
- </body>
- </html>
- 
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    
+      <div class="titulo">
+      <h1 class="site-title">Amanda Vasconcelos</h1>
+      <h2 class="site-subtitle">Aspirante a Frontend Developer</h2>
+    </div>
+  
+  </header>
+  <section class="sobre container">
+    <h2>Sobre</h2>
+    <figure class="avatar">
+      <img  src="./img/amanda-icone.jpg" alt="">
+
+
+    </figure>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem minus atque repellat iusto aperiam culpa tempora, cupiditate tenetur porro impedit quis hic vero explicabo ex fugiat alias quos mollitia et.</p>
+    <p>Enim mollitia non ex et unde fugiat aperiam qui recusandae facere consequatur, quia, dolorem architecto iusto nam beatae a expedita, est saepe! Qui enim minima deserunt dignissimos reiciendis eos quod.</p>
+    <p>Enim sapiente, et cupiditate accusantium sit blanditiis alias quo optio fugit quis quas ipsum recusandae illo soluta. Consequuntur, vero iure illum deleniti accusamus ipsam esse necessitatibus quidem corrupti eos alias!</p>
+    <p>Dignissimos, voluptatibus iusto. Expedita, nemo. Et consectetur architecto sapiente? Veniam doloremque et minus, porro repellat iure aspernatur cumque, accusamus praesentium recusandae a animi similique amet ad! Cum dolorem pariatur reprehenderit?</p>
+    
+    <p>Este site foi construido durante a <a href="https://www.alura.com.br/imersao-css/" >Imersao CSS da Alura</a>
+ </p>
+  </section>
+
+  <section class="portfolio container" id="portfolio">
+      <h2>Portfólio</h2>
+         
+      <div class="grid">
+
+      <div class="flip-card">
+      <div class="card">  
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          <figcaption>eCommerce</figcaption>
+        </figure>
+       <div class="card-back">
+         Oi eu sou a parte de tras
+       </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="card">  
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+            <figcaption>Mobile</figcaption>
+        </figure>
+       <div class="card-back">
+         Oi eu sou a parte de tras
+       </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="card">  
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          <figcaption>Web design</figcaption>
+        </figure>
+       <div class="card-back">
+         Oi eu sou a parte de tras
+       </div>
+      </div>
+     </div> 
+
+      
+        </div>
+    </section>
+    <section class="contato container" id="contato">
+      
+      <h2>Contato</h2>
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/amanditacv">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://instagram.com/amandac.vasconcelos">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" href="www.linkedin.com/in/amanda-vasconcelos-3ab0b7111">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="spotify:show:1YQUF01xG2oOGkgGDeHVFX">
+          <i class="fas fa-microphone-alt"></i>
+        </a>
+      </div>
+    </section>
+
+
+
+  </body>
+
+  </html>
